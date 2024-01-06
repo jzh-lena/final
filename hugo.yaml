@@ -1,0 +1,33 @@
+baseURL: "https://jzh-lena.github.io/"
+languageCode: en-us
+title: jzh.lena
+theme: "hugo-PaperMod"
+
+menu:
+  main:
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+
+params:
+  cover: 
+    linkFullImages: true
+
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+
+  homeInfoParams:
+    Title: "Helena Zhang" 
+    Content: Waterloo Computer Engineering '28 
+  socialIcons:
+    - name: github
+      url: 'https://github.com/jzh-lena'
+    - name: linkedin
+      url: 'https://www.linkedin.com/in/helena-zhang-a687a62a2/'
+    - name: instagram
+      url: 'https://www.instagram.com/jzh.lena/'
+  mainSections:
+  - post
+
+
